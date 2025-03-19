@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT
 pragma solidity ^0.8.26;
 
 contract Primitives {
@@ -42,7 +43,7 @@ contract Primitives {
      It's a shorthand for byte[] .
     */
     bytes1 a = 0xb5;
-    bytes b = 0x56;
+    bytes1 b = 0x56;
 
     // Default values
     // Unassigned variables have a default value
